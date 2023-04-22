@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito:wght@700&display=swap');
+
+*{
+	margin: 0px;
+	overflow-y: hidden;
+}
+
+#signup{
+	top: 15vh;
+	left: 6vw;
+	position: absolute;
+	display: block;
+	background-color: #6320EE;
+	padding: 35px;
+	padding-bottom: 50px;
+	border: 10px;
+	margin: 10px;
+	border-radius: 30px;
+	font-family: 'DM sans';
+	font-size: 30px;
+	color: #FCDDF2;
+}
+#para{
+	right: 0px;
+	position: absolute;
+	text-align: left;
+	width: 500px;
+	height: 100vh;
+	border: 10px;
+	padding: 50px;
+	padding-top: 110px;
+	background-color: #FCDDF2;
+	font-family:  'DM sans';
+	font-size: 30px;
+}
+#loginbutt1, #loginbutt2 {
+  position: absolute;
+  left: 1vw;
+  top: 60vh;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+#loginbutt2{
+	left: 14vw;
+}
+#loginbutt2:hover{
+	background-color: #FF5A5F
+}
+#loginbutt1:hover{
+	background-color: #FF5A5F;
+}
+
+ input[type=text], input[type=radio], input[type=tel], input[type=email] {
+      padding: 10px;
+      padding-right: 240px;
+      border: 0;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      background-color: white;
+    }
+input[type=text]:hover, input[type=radio]:hover, input[type=tel]:hover, input[type=email]:hover {
+      background-color: #FCDDF2;
+    }
